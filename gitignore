@@ -1,0 +1,39 @@
+Microdata.zip
+microdata.zip
+Microdata/
+agricultural_data/
+data/
+outputs/
+agricultural_seed_prediction_outputs/
+models/
+tensorboard/
+logs/
+*.keras
+*.h5
+*.joblib
+*.pkl
+events.out.tfevents.*
+
+!results/
+!results/*.csv
+!results/*.json
+!figures/
+!figures/*.png
+
+# Python
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Colab
+
+.ipynb_checkpoints/
+
+# Report drafts
+
+~$*.docx
+*.tmp
